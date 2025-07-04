@@ -11,6 +11,8 @@ _First three nodes available. The Random uINT makes a random unsigned integer on
 
 The subsections will describe the nodes included in this repo.
 
+Installation for now is simple, download the repo and copy the node folders into the `ComfyUI/custom_nodes` directory. I will work on adding this to the manager in the app soon.
+
 ## Dimension base
 
 This node is my attempt to standardize image dimension sizes, I'm fed up of manually inputting values and having the default input fields clip or change the values, or just human error and inputting something off by a few pixels.
