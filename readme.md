@@ -7,7 +7,7 @@ Motivation: a lot of published nodes are created by people that aren't experienc
 Post feedback or requests for nodes and features, I will be active in this area for a while.
 
 ![Screenshots](./screenshots/base_1.png)
-_First three nodes available. The Random uINT makes a random unsigned integer on activation and you can store a lock value and toggle it when needed. The Dimension base attempts to simplify image size by providing an aspect ratio and a target mega pixel count. The Dimension multiplier simply allows scaling up of integer wight and height dimensions._
+_First three nodes available. The Random uINT makes a random unsigned integer on activation and you can store a lock value and toggle it when needed. The Dimension base attempts to simplify image size by providing an aspect ratio and a target mega pixel count. The Dimension multiplier simply allows scaling up of integer width and height dimensions._
 
 The subsections will describe the nodes included in this repo.
 
