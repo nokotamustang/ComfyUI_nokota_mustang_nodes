@@ -55,7 +55,7 @@ def get_pixel_count(name: str = "1 million (SDXL base 1024)") -> tuple:
 class Node:
 
     @classmethod
-    def INPUT_TYPES(s):
+    def INPUT_TYPES(self):
         names = [k for k in ratios]
         targets = [k for k in target_mega_pixels]
         return {

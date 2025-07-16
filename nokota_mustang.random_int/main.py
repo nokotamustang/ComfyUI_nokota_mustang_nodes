@@ -4,7 +4,7 @@ import random
 class Node:
 
     @classmethod
-    def INPUT_TYPES(s):
+    def INPUT_TYPES(self):
         return {
             "required": {
                 "min_val": ("INT", {"default": 1, "min": 1, "max": 1125899906842624, "step": 1}),
@@ -37,5 +37,5 @@ class Node:
         }
 
     @classmethod
-    def IS_CHANGED(s):
+    def IS_CHANGED(self, min_val, max_val, lock, lock_val):
         return float("NaN")

@@ -2,7 +2,7 @@
 class Node:
 
     @classmethod
-    def INPUT_TYPES(s):
+    def INPUT_TYPES(self):
         return {
             "required": {
                 "w": ("INT,FLOAT", {"default": 1.0, "step": 0.05}),
