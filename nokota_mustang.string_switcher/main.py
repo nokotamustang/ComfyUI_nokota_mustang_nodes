@@ -48,7 +48,7 @@ class Node:
             selected_text = text_10
         return {
             "ui": {
-                "result": (f"{selected_text}",)
+                "result": (f"{select}: {selected_text}",)
             },
             "result": (selected_text,)
         }

@@ -8,7 +8,7 @@ app.registerExtension({
             const onNodeCreated = nodeType.prototype.onNodeCreated;
             nodeType.prototype.onNodeCreated = function () {
                 onNodeCreated ? onNodeCreated.apply(this, []) : undefined;
-                this.resultWidget = ComfyWidgets["STRING"](this, "result 🗟", ["STRING", { multiline: true }], app).widget;
+                this.resultWidget = ComfyWidgets["STRING"](this, "result 🗟", ["STRING", { multiline: false }], app).widget;
             }
             const onExecuted = nodeType.prototype.onExecuted;
             nodeType.prototype.onExecuted = function (message) {
