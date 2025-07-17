@@ -9,6 +9,9 @@ Post feedback or requests for nodes and features, I will be active in this area 
 ![Screenshots](./screenshots/base_1.png)
 _First three nodes available. The Random uINT makes a random unsigned integer on activation and you can store a lock value and toggle it when needed. The Dimension base attempts to simplify image size by providing an aspect ratio and a target mega pixel count. The Dimension multiplier simply allows scaling up of integer width and height dimensions._
 
+![Screenshots](./screenshots/base_2.png)
+_The next node allows you to switch between 10 strings._
+
 The subsections will describe the nodes included in this repo.
 
 Installation for now is simple, download the repo and copy the node folders into the `ComfyUI/custom_nodes` directory. I will work on adding this to the manager in the app soon.
@@ -40,4 +43,10 @@ My take on random integer generation since others either focus on providing nega
 This node will generate a random unsigned integer. If you copy the random number into the lock value manually, you can lock the integer to this number if the lock switch is flipped on.
 
 The number will generate on the node usage, so it's useful for seed generation and preserving the seed in the metadata for recreation.
+
+## String selector
+
+I wanted to select or switch between strings at will, this does it. Handy if you want to feed in a random uInt as well using the pervious node.
+
+It is fixed to 10 text entries for now.
 

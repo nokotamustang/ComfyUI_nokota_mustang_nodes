@@ -10,7 +10,7 @@ class Node:
                 "min_val": ("INT", {"default": 1, "min": 1, "max": 1125899906842624, "step": 1}),
                 "max_val": ("INT", {"default": 1125899906842624, "min": 1, "max": 1125899906842624, "step": 1}),
                 "lock": ("BOOLEAN", {"default": False}),
-                "lock_val": ("INT", {"default": 1125899906842624, "min": 0, "max": 1125899906842624, "step": 1}),
+                "lock_val": ("INT", {"default": 0, "min": 0, "max": 1125899906842624, "step": 1}),
             }
         }
 
