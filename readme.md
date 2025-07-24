@@ -1,8 +1,8 @@
 # ComfyUI Nokota Mustang nodes
 
-I added my nodes that I am building for public use. I don't use any other nodes other than the default ones and these, so when I publish artwork with metadata you should be able to generate my work the same way.
+I added my nodes that I am building for public use.
 
-Motivation: a lot of published nodes are created by people that aren't experienced programmers, let's say, or are making a complete dogs-dinner of code that should be much simpler in implementation. I also noticed a slow-down on startup with some packages out there so instead of complaining I just removed everything and created my own nodes. Last and largest point: I just wanted more features that are not available out there.
+Motivation: I just wanted more features that are not available out there, and to learn how ComfyUI and LiteGraph nodes work.
 
 Post feedback or requests for nodes and features, I will be active in this area for a while.
 
@@ -38,7 +38,7 @@ This is handy for my purpose since I want to create a latent image with the base
 
 ## Random uINT
 
-My take on random integer generation since others either focus on providing negative integers (useless), are ~1000 lines long or more???, or don't work intuitively (the base node randomizes after running and you can see the used seed???!?).
+My take on random integer generation since others either focus on providing negative integers (useless), are ~1000 lines long or more?, or don't work intuitively (the base node randomizes after running and you can see the used seed?).
 
 This node will generate a random unsigned integer. If you copy the random number into the lock value manually, you can lock the integer to this number if the lock switch is flipped on.
 

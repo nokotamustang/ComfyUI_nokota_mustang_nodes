@@ -5,12 +5,12 @@ class Node:
     def INPUT_TYPES(s):
         return {
             "required": {
-                "cfg": ("FLOAT", {"default": 5.0, "step": 0.05}),
-                "steps": ("INT", {"default": 32}),
-                "denoise": ("FLOAT", {"default": 1.0, "step": 0.05}),
-                "upscale_cfg": ("FLOAT", {"default": 5.0, "step": 0.05}),
-                "upscale_steps": ("INT", {"default": 23}),
-                "upscale_denoise": ("FLOAT", {"default": 0.5, "step": 0.05}),
+                "cfg": ("FLOAT", {"default": 6.0, "min": 0.05, "max": 20.0, "step": 0.05}),
+                "steps": ("INT", {"default": 32, "min": 1, "max": 200, "step": 1}),
+                "denoise": ("FLOAT", {"default": 1.0, "min": 0.05, "max": 2.0, "step": 0.05}),
+                "upscale_cfg": ("FLOAT", {"default": 6.0, "min": 0.05, "max": 20.0, "step": 0.05}),
+                "upscale_steps": ("INT", {"default": 23, "min": 1, "max": 200, "step": 1}),
+                "upscale_denoise": ("FLOAT", {"default": 0.5, "min": 0.05, "max": 2.0, "step": 0.05}),
             }
         }
     RETURN_TYPES = ("FLOAT", "INT", "FLOAT", "FLOAT", "INT", "FLOAT",)
